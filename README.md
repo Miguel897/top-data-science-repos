@@ -20,7 +20,8 @@ A reference list of popular data-science repositories on GitHub: systems, implem
 | [MLOps](DATA_SCIENCE_REPOS.md#10-mlops) | Experiment tracking and model registry |
 | [Speech](DATA_SCIENCE_REPOS.md#11-speech) | Transcription and voice interfaces |
 | [Tabular machine learning](DATA_SCIENCE_REPOS.md#12-tabular-machine-learning) | Gradient boosting for business data |
-| [Learning & reference](DATA_SCIENCE_REPOS.md#13-learning--reference) | Courses, books, and production ML reading |
+| [Explainability & interpretability](DATA_SCIENCE_REPOS.md#13-explainability--interpretability) | SHAP, LIME, and explaining decisions to business users |
+| [Learning & reference](DATA_SCIENCE_REPOS.md#14-learning--reference) | Courses, books, and production ML reading |
 | [Python packages index](DATA_SCIENCE_REPOS.md#python-packages-index) | Pip-installable libraries from every section |
 
 ## Notes

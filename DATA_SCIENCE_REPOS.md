@@ -27,7 +27,8 @@ A reference list of popular data-science repositories on GitHub, organized by fi
 | MLOps | Experiment tracking, model registry, deployment | [10](#10-mlops) |
 | Speech | Call-center transcription, voice interfaces | [11](#11-speech) |
 | Tabular machine learning | Churn, credit scoring, demand features, pricing models | [12](#12-tabular-machine-learning) |
-| Learning & reference | Learning ML in practice, deep learning, ML in production | [13](#13-learning--reference) |
+| Explainability & interpretability | Explaining model decisions to business users, regulators, and auditors | [13](#13-explainability--interpretability) |
+| Learning & reference | Learning ML in practice, deep learning, ML in production | [14](#14-learning--reference) |
 | Python packages | Index of pip-installable libraries from every section | [Python packages](#python-packages-index) |
 
 ---
@@ -183,7 +184,20 @@ Optimization splits into a **modeling layer** (you write the problem) and a **so
 - **[microsoft/LightGBM](https://github.com/microsoft/LightGBM)** (~18.9k) · *Library*
   Fast, distributed gradient boosting framework built on decision trees. A common choice for large tabular datasets.
 
-## 13. Learning & reference
+## 13. Explainability & interpretability
+
+- **[shap/shap](https://github.com/shap/shap)** (~25.8k) · *Library*
+  Game-theoretic explanations of any model's output (SHAP values). The standard tool for explaining feature contributions in tabular, tree, and deep learning models.
+- **[marcotcr/lime](https://github.com/marcotcr/lime)** (~12.2k) · *Library*
+  Local explanations of individual predictions for any classifier. Useful for showing a single customer why a decision was made.
+- **[interpretml/interpret](https://github.com/interpretml/interpret)** (~7.0k) · *Library*
+  Fits interpretable models (such as Explainable Boosting Machines) and explains black-box models. A good choice when a glass-box model is required.
+- **[pytorch/captum](https://github.com/pytorch/captum)** (~5.7k) · *Library*
+  Model interpretability for PyTorch: attributions for inputs, neurons, and layers. The go-to for explaining deep learning models.
+- **[SeldonIO/alibi](https://github.com/SeldonIO/alibi)** (~2.6k) · *Library*
+  Algorithms for explaining machine learning models, including counterfactuals and anchor explanations. Pairs well with production model monitoring.
+
+## 14. Learning & reference
 
 - **[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook)** (~50.2k) · *Examples*
   Full text in Jupyter notebooks: NumPy, pandas, Matplotlib, and scikit-learn.
@@ -237,6 +251,11 @@ Pip-installable libraries from the sections above, plus a few others. Only the u
 | [PyOD](https://github.com/yzhao062/pyod) | 10.1k | Anomaly detection | [Anomaly & causal](#8-anomaly-detection--causal-inference) |
 | [DoWhy](https://github.com/py-why/dowhy) | 8.4k | Causal inference | [Anomaly & causal](#8-anomaly-detection--causal-inference) |
 | [CausalML](https://github.com/uber/causalml) | 6.0k | Uplift modeling and CATE | [Anomaly & causal](#8-anomaly-detection--causal-inference) |
+| [SHAP](https://github.com/shap/shap) | 25.8k | Feature attributions for any model | [Explainability](#13-explainability--interpretability) |
+| [LIME](https://github.com/marcotcr/lime) | 12.2k | Local explanations of single predictions | [Explainability](#13-explainability--interpretability) |
+| [InterpretML](https://github.com/interpretml/interpret) | 7.0k | Glass-box models and black-box explanations | [Explainability](#13-explainability--interpretability) |
+| [Captum](https://github.com/pytorch/captum) | 5.7k | Model interpretability for PyTorch | [Explainability](#13-explainability--interpretability) |
+| [Alibi](https://github.com/SeldonIO/alibi) | 2.6k | Counterfactual and anchor explanations | [Explainability](#13-explainability--interpretability) |
 | [RecBole](https://github.com/RUCAIBox/RecBole) | 4.6k | Recommendation algorithms | [Recommendation](#1-recommendation-systems) |
 | [TF Recommenders](https://github.com/tensorflow/recommenders) | 2.0k | Recommender models in TensorFlow | [Recommendation](#1-recommendation-systems) |
 | [Merlin](https://github.com/NVIDIA-Merlin/Merlin) | 0.9k | GPU-accelerated recommender pipeline | [Recommendation](#1-recommendation-systems) |
